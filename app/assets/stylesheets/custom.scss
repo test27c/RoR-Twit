@@ -66,13 +66,22 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: yellowgreen;
+  color: #7fff00;
+  text-decoration: none;
+  // color: rgba(255,255,255,1);
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+
   &:hover {
     color: #fff;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px #7fff00 , 0 0 30px rgba(255,255,255,1) , 0 0 40px #7fff00;
     text-decoration: none;
   }
 }
