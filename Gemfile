@@ -10,6 +10,12 @@ end
 gem 'rails', '~> 5.0.1'
 # Add bcrypt gem
 gem 'bcrypt', '3.1.11'
+# Add faker gem
+gem 'faker', '1.6.6'
+# Add will_paginate gem
+gem 'will_paginate', '3.1.0'
+# Add bootstrap-will_paginate gem
+gem 'bootstrap-will_paginate', '0.0.10'
 # Add bootstrap gem
 gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server
