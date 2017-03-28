@@ -1,5 +1,0 @@
-yohanes:
-  name: Yohanes Setiawan
-  email: test27c@gmail.com
-  password_digest: <%= User.digest('S4rj4n407') %>
-  password_digest: <%= User.digest('S4rj4n407') %>
