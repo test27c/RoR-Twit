@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.0.1'
 # Add bcrypt gem
 gem 'bcrypt', '3.1.11'
+# Add figaro gem
+gem 'figaro'
 # Add faker gem
 gem 'faker', '1.6.6'
 # Add will_paginate gem
