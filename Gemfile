@@ -12,6 +12,12 @@ gem 'rails', '~> 5.0.1'
 gem 'bcrypt', '3.1.11'
 # Add figaro gem
 gem 'figaro'
+# Add carrierwave gem
+gem 'carrierwave', '0.11.2'
+# Add mini_magick gem
+gem 'mini_magick', '4.5.1'
+# Add fog gem
+gem 'fog', '1.38.0'
 # Add faker gem
 gem 'faker', '1.6.6'
 # Add will_paginate gem
